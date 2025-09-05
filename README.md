@@ -8,11 +8,7 @@ Um sistema full-stack de controle de estoque desenvolvido como projeto para a ma
 
 ### 📷 Demonstração
 
-Aqui é o lugar perfeito para uma imagem do seu dashboard funcionando!
-
 ![Demonstração do Projeto AutoStock](./assets/demonstracao/Animação.gif)
-
-*(**Dica:** Para conseguir o link, edite o README no GitHub e arraste a imagem para a caixa de texto. O GitHub fará o upload e criará o link para você!)*
 
 ---
 
@@ -89,14 +85,13 @@ Siga os passos abaixo para rodar a aplicação localmente.
 
 **1. Clonar o Repositório:**
 ```bash
-git clone [https://github.com/matheus-artioli/SEU-REPOSITORIO.git](https://github.com/matheus-artioli/SEU-REPOSITORIO.git)
+git clone [https://github.com/matheus-artioli/StockControll.git](https://github.com/matheus-artioli/StockControll.git)
 ```
-*(Lembre-se de trocar `SEU-REPOSITORIO` pelo nome real do seu repositório)*
 
 **2. Configurar e Rodar o Back-end (API):**
 ```bash
 # Navegue até a pasta da API
-cd SEU-REPOSITORIO/StockControlAPI
+cd StockControll/StockControlAPI
 
 # Restaure as dependências do projeto
 dotnet restore
