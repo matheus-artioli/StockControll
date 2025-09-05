@@ -85,7 +85,7 @@ Siga os passos abaixo para rodar a aplicação localmente.
 
 **1. Clonar o Repositório:**
 ```bash
-git clone [https://github.com/matheus-artioli/StockControll.git](https://github.com/matheus-artioli/StockControll.git)
+git clone (https://github.com/matheus-artioli/StockControll.git)
 ```
 
 **2. Configurar e Rodar o Back-end (API):**
