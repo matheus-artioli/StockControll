@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - AutoStock</title>
+    
+    <link rel="stylesheet" href="/FrontEnd/estilo/dashboard.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <ul class="sidebar-menu">
+            <li><a href="dashboard.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="produtos.html" class="active"><i class="fas fa-box"></i><span>Produtos</span></a></li>
+            <li><a href="#"><i class="fas fa-truck-moving"></i><span>Fornecedores</span></a></li>
+            <li><a href="#"><i class="fas fa-clipboard-list"></i><span>Pedidos</span></a></li>
+            <li><a href="#"><i class="fas fa-users"></i><span>Usuários</span></a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <header class="main-header">
+            <div class="user-info">
+                <img src="https://semead.com.br/16/wp-content/uploads/sites/6/2017/02/logo-uninove.gif" alt="Avatar do Usuário" class="user-avatar">
+            </div>
+        </header>
+
+        <section class="kpi-cards">
+            <div class="kpi-card">
+                <h3>Total de Produtos</h3>
+                <div class="kpi-value">
+                    <i class="fas fa-box icon"></i>
+                    <p id="total-produtos">0</p>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <h3>Itens no Estoque</h3>
+                <div class="kpi-value">
+                    <i class="fas fa-boxes-stacked icon"></i>
+                    <p id="total-itens-estoque">0</p>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <h3>Valor Total (R$)</h3>
+                <div class="kpi-value">
+                    <i class="fas fa-dollar-sign icon"></i>
+                    <p id="valor-total-estoque">R$ 0,00</p>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <h3>Alertas de Estoque</h3>
+                <div class="kpi-value">
+                    <i class="fas fa-exclamation-triangle icon"></i>
+                    <p id="produtos-baixo-estoque">0</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="data-tables">
+            <div class="card">
+                <h3>Lista de Produtos</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Estoque</th>
+                            <th>Preço Unitário</th>
+                            <th>Fornecedor</th>
+                        </tr>
+                    </thead>
+                    <tbody id="produtos-tbody">
+                        </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="/FrontEnd/js/produtos.js"></script>
+</body>
+</html>

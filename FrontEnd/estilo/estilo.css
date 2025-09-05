@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1D1D1D;
+}
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.info-panel {
+    width: 946px;
+    background: #7731B4;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+    
+
+    position: relative;
+    overflow: hidden; 
+}
+
+.login-panel {
+    flex: 1;
+    background: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.background-blob {
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    z-index: 0;
+    width: 489px;
+    height: 457px;
+    transform: rotate(-138.5deg);
+}
+
+.background-blob-2 {
+    position: absolute;
+    bottom: -80px;
+    right: -70px;
+    z-index: 0; 
+    width: 448.613px;
+    height: 397.335px;
+    transform: rotate(152.27deg);
+}
+
+.brand-title,
+.brand-description {
+    position: relative;
+    z-index: 1;
+}
+
+.brand-title {
+    color: #FFF;
+    font-size: 88px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 0 0 24px 0;
+}
+
+.brand-description {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 488px;
+}
+
+.login-title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0 0 40px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form label {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form input {
+    background-color: #FFF;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    color: #333;
+}
+
+.submit-button {
+    background-color: #7731B4;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 16px 20px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 15px;
+}
+
+.submit-button:hover {
+    background-color: #662b9c;
+}
